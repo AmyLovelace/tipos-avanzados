@@ -16,5 +16,5 @@ usuarios = [["ami", 4],
 def ordena(elemento):
     return elemento[1]
 
-usuarios.sort(key=ordena)
+usuarios.sort(key=lambda elemento:elemento[1],reverse=True)
 print(usuarios)
