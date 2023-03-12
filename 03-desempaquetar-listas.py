@@ -5,5 +5,7 @@ numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 #primero = numeros[2] 
 
 #lindo
-primero, *otros, ultimo  = numeros # *esto para solo llamar a un numero de la lista
-print(primero, ultimo, otros)
+segundo, *otros, tercero  = numeros # *esto para solo llamar a un numero de la lista
+print( otros)
+print(segundo, otros, tercero)
+
