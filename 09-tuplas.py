@@ -1,4 +1,3 @@
-
 #tupla es lo mismo que una lista solo que no puedes eliminar ni modificar ni agregar elementos
 numeros = (1, 2, 3) +(4, 5, 6)
 print(numeros)
@@ -7,8 +6,8 @@ print(numeros)
 punto = tuple([1, 2])#lista convertida en tupla
 print(punto)
 
-menosNumeros = numeros[1:3]
-print(menosNumeros)
+#menosNumeros = numeros[1:3]
+#print(menosNumeros)
 
 primero, segundo, *otros =numeros#desmpaquetar 
 print(primero, segundo, otros)#desempaquetar
